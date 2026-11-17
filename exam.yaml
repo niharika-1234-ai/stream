@@ -1,0 +1,12 @@
+name: student.user
+    on:
+    jobs:
+    tests:
+    runs_on:
+        user:student's profile
+        run:
+        user: verify index.html
+        run:
+        user:verify index.html
+        run:
+        

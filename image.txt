@@ -1,0 +1,4 @@
+git push -u origin main
+docker log
+docker ps 
+docker build

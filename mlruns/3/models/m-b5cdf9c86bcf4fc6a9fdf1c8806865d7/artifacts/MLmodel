@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/AIML-LAB1-11/Desktop/niha/mlruns/3/models/m-b5cdf9c86bcf4fc6a9fdf1c8806865d7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-b5cdf9c86bcf4fc6a9fdf1c8806865d7
+model_size_bytes: 9125
+model_uuid: m-b5cdf9c86bcf4fc6a9fdf1c8806865d7
+prompts: null
+run_id: 13edc7e669624ecc8daec4e0174f4bd8
+utc_time_created: '2026-11-14 09:31:28.127317'
